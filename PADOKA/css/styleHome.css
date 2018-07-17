@@ -1,0 +1,758 @@
+/* VERSAO MOBILE */
+@media screen and (min-device-width:200px) and (max-device-width:520px){
+    /*---------- formatando a parte de tras de todo o site -------------*/
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image: url(../imagens/bg_body.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top;
+        background-size: cover;
+        font-family: monospace;
+    }
+
+
+    /* estilização da modal dos produtos */
+    .container{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        z-index: 1000;
+        display: none;
+    }
+
+    .modal{
+        width: 80%;
+        height: 60%;
+        background-color: #ffffff;
+        margin-left: 10%;
+        margin-top: 25%;
+        border-radius: 10px;
+        background-color: #FFDEAD;
+        border: 4px solid #8B4513;
+    }
+
+    /*------------- SEÇÃO DO CABEÇALHO ---------------*/
+    /*-------------
+            esse é o elemento que está por tras do content_header,
+            que fixa o menu na parte de cima
+    ----------------*/
+    header {
+        width: 100%;
+        height: 180px;
+        background-color: #FFDEAD;
+        text-align: center;
+        border-bottom: 4px solid #8B4513;
+        border-radius: 7px;
+        font-weight: 900;
+        position: fixed;
+        color: #8B4513;
+        z-index: 999;
+    }
+
+    /*div utilizada para descer o main na mesma linha do header*/
+    #gamb{
+        width: 100%;
+        height: 183px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #ffffff;
+    }
+
+    /*---------------- MAIN - CONTEUDO DO SITE ----------------*/
+    /*main é a caixa principal do site*/
+    #main{
+        width: 100%;
+        min-height: 1300px;
+        height: auto;
+        overflow-y: hidden;
+        background-color: #ffffff;
+    }
+
+    /*usado para segurar os icones das redes sociais*/
+    #redes_sociais{
+        display: none;
+    }
+
+    /*icones das redes sociais*/
+    .itens_redes{
+        display: none;
+    }
+
+    /*----------- ÁREA DO SLIDER ----------*/
+    /*content usado para reservar o espaço do slider*/
+    #slider{
+        width: 100%;
+        height: 20vh;
+        color: aqua;
+        font-size: 58px;
+        text-align: center;
+        background-color: red;
+        background-image: url(../imagens/slider/ambienteretromobile.png);
+    }
+
+    /*div para as setas de avançar e voltar*/
+    .setas{
+        display: none;
+    }
+
+    /*esse espaço é onde fica os sliders textos, imagens, etc...*/
+    #conteudo_slider{
+        display: none;
+    }
+
+    #conteudo_slider ul{
+        display: none;
+    }
+
+    .slider1{
+        display: none;
+    }
+
+    .imagem_slider1{
+        display: none;
+    }
+
+    #txt_slider1{
+        display: none;
+    }
+
+    #txt_slider2{
+        display: none;
+    }
+
+    #txt_slider3{
+        display: none;
+    }
+
+    /*------------- ÁREA DO MENU LATERAL -------------*/
+    /*espaço separado para o menu lateral*/
+    #menu_lateral{
+        width: 30%;
+        min-height: 950px;
+        height: auto;
+        overflow-y: hidden;
+        background-color: #FFFFFF;
+        float: left;
+    }
+
+    /*class de formatação para cada item do menu lateral*/
+    .itens_lateral{
+        width: 100%;
+        min-height: 2vh;
+        height: auto;
+        font-size: 2.5em;
+        border-bottom: 4px solid #D2691E;
+        border-radius: 5px;
+    }
+
+    .texto_itens{
+        min-height: 2vh;
+    }
+
+    .submenu_lateral{
+        width: 100%;
+        height: 0px;
+        visibility: hidden;
+        overflow: hidden;
+        transition: 0.5s;
+        background-color: #ffffff;
+    }
+
+    .itens_lateral:hover .submenu_lateral{
+        height: auto;
+        float: left;
+        visibility: visible;
+        overflow: visible;
+        margin-bottom: 1%;
+        transition: 1s;
+    }
+
+    .subitens_lateral{
+        width: 100%;
+        height: 0px;
+        font-size: 0em;
+        padding-left: 10px;
+        color: black;
+        visibility: hidden;
+        overflow: hidden;
+        transition: 0.5s;
+        background-color: #ffffff;
+        border-bottom: 4px solid #D2691E;
+    }
+
+    .itens_lateral:hover .subitens_lateral{
+        height: auto;
+        font-size: 1em;
+        visibility: visible;
+        overflow: visible;
+        transition: 1s;
+    }
+
+
+    /*--------------- ÁREA DO CONTEÚDO PRINCIPAL DO SITE -------------------*/
+    /*esse elemento é o que fica por tras das div's dos produtos*/
+    #content{
+        width: 70%;
+        min-height: 1300px;
+        height: auto;
+        float: left;
+        background-color: #FFF5D6;
+    }
+     /* style da parte de filtro dos produtos */
+    .pesquisar{
+        width: 80%;
+        height: 5vh;
+        float: right;
+        margin-top: 15px;
+    }
+
+    .txtPesquisar{
+        width: 70%;
+        height: 50%;
+        margin-left: 2%;
+        margin-top: 2%;
+        font-size: 2em;
+        border: solid 2px #8B4513;
+    }
+
+    /* style dos botoes */
+    .botao_style{
+        width: 23%;
+        height: 55%;
+        margin-right: 2%;
+        background-color: rgba(0, 0, 0, .0);
+        border: groove 3px #8B4513;
+        font-weight: 900;
+        font-size: 1em;
+    }
+
+    .botao_style:hover{
+        cursor: pointer;
+        box-shadow: -7px 3px 7px rgba(0, 0, 0, .5);
+    }
+
+    /*
+        linha é a clas usada para formatar uma linha de produtos,
+        ela fica entre o content e as div's de produtos
+    */
+    .linha{
+        width: 100%;
+        min-height: 950px;
+        height: auto;
+        margin-top: 80px;
+        overflow: hidden;
+        background-color: #FFF5D6;
+    }
+
+    /*essa class é usada para formatação individual da caixa de cada produto*/
+    .produtos{
+        width: 80%;
+        height: 35vh;
+        background-color: #ffffff;
+        margin-left: 10%;
+        float: left;
+        border: solid 2px #8B4513;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        margin-bottom: 50px;
+    }
+
+    .produtos:hover{
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+    }
+
+    /*formatação da imagem de cada produto*/
+    .imagem_produto{
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        margin-top: 10px;
+        background-color: #ffffff;
+    }
+
+    .imagem_produto img{
+        width: 75%;
+        height: 100%;
+    }
+
+    /*formatação das linhas de informações do produto (nome, preço e descrição)*/
+    .linhas_detalhes{
+        width: 100%;
+        height: 10%;
+        margin-top: 10px;
+        font-size: 2.2em;
+    }
+
+    /*
+        formatação da div qua contem o nome da informação
+        que será mostra no campo do lado
+    */
+    .label_produtos{
+        width: 29%;
+        height: 100%;
+        float: left;
+        padding-left: 5px;
+        font-weight: 900;
+        background-color: #ffffff;
+    }
+
+    /*formatação da div que vai conter i unformação do produto em si*/
+    .text_produto{
+        width: 68%;
+        height: 100%;
+        float: left;
+        padding-left: 2%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        background-color: #ffffff;
+    }
+
+    /*formatação da div que contem um link que está logo ao fim das informações*/
+    .detalhes{
+        width: 95%;
+        height: 100%;
+        text-align: right;
+        padding-right: 5%;
+        background-color: #ffffff;
+    }
+
+    /*----------------------- ÁREA DO RODAPÉ --------------------------*/
+    /*é o elemento que fica por tras dos outros, dando tamanho, cor para o rodapé*/
+    footer{
+        width: 100%;
+        height: 250px;
+        background-color: #FFDEAD;
+        color: #8B4513;
+        border: groove 3px rgba(147, 67, 0, 0.6);
+    }
+
+    /*formatação dos links, retirada dos sublinhados, mudando cor, etc*/
+    a:link{
+        color: #8B4513;
+    }
+    .links:visited {
+        color:#8B4513;
+        text-decoration: none;
+    }
+    .links:active {
+        color:#8B4513;
+        text-decoration: none;
+    }
+    .links:hover{
+        color:#8B4513;
+        cursor:pointer;
+        transition:0.3s;
+    }
+
+}
+
+/* VERSAO DESKTOP */
+@media screen and (min-device-width:521px){
+    /*---------- formatando a parte de tras de todo o site -------------*/
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image: url(../imagens/bg_body.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top;
+        background-size: cover;
+        font-family: monospace;
+    }
+
+
+    /* estilização da modal dos produtos */
+    .container{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        z-index: 1000;
+        display: none;
+    }
+
+    .modal{
+        width: 600px;
+        height: 800px;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        border-radius: 10px;
+        background-color: #FFDEAD;
+        border: 4px solid #8B4513;
+    }
+
+    /*------------- SEÇÃO DO CABEÇALHO ---------------*/
+    /*-------------
+            esse é o elemento que está por tras do content_header,
+            que fixa o menu na parte de cima
+    ----------------*/
+    header {
+        width: 100%;
+        height: 140px;
+        background-color: #FFDEAD;
+        text-align: center;
+        border-bottom: 4px solid #8B4513;
+        border-radius: 7px;
+        font-weight: 900;
+        position: fixed;
+        color: #8B4513;
+        z-index: 999;
+    }
+
+    /*div utilizada para descer o main na mesma linha do header*/
+    #gamb{
+        width: 100%;
+        height: 143px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #ffffff;
+    }
+
+    /*---------------- MAIN - CONTEUDO DO SITE ----------------*/
+    /*main é a caixa principal do site*/
+    #main{
+        width: 1500px;
+        min-height: 1300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-y: hidden;
+        background-color: #ffffff;
+    }
+
+    /*usado para segurar os icones das redes sociais*/
+    #redes_sociais{
+        width: 70px;
+        height: 226px;
+        position: fixed;
+        margin-left: 1510px;
+        margin-top: 10px;
+    }
+
+    /*icones das redes sociais*/
+    .itens_redes{
+        width: 70px;
+        height: 70px;
+        margin-bottom: 5px;
+        border-radius: 8px;
+        transition: 0.5s;
+    }
+
+    /*efeito dos icones das redes sociais*/
+    .itens_redes:hover{
+        margin-left: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    /*----------- ÁREA DO SLIDER ----------*/
+    /*content usado para reservar o espaço do slider*/
+    #slider{
+        width: 1500px;
+        height: 350px;
+        color: aqua;
+        font-size: 58px;
+        text-align: center;
+    }
+
+    /*esse elemento é usado para segurar as divs de dentro*/
+    #content_slider{
+        width: 1500px;
+        height: 350px;
+    }
+
+    /*div para as setas de avançar e voltar*/
+    .setas{
+        width: 150px;
+        height: 250px;
+        background-color: #000000;
+        float: left;
+        padding-top: 100px;
+    }
+
+    /*efeito de mudar o cursos quando o mouse estiver na imagem das setas*/
+    .img_setas:hover{
+        cursor: pointer;
+    }
+
+    /*esse espaço é onde fica os sliders textos, imagens, etc...*/
+    #conteudo_slider{
+        width: 1200px;
+        height: 350px;
+        float: left;
+    }
+
+    #conteudo_slider ul{
+        margin: 0px;
+        list-style-type: none;
+        overflow: hidden;
+    }
+
+    .slider1{
+        width: 1200px;
+        height: 350px;
+        float: left;
+    }
+
+    .imagem_slider1{
+        width: 1200px;
+        height: 350px;
+        float: left;
+    }
+
+    #txt_slider1{
+        width: 1050px;
+        height: 50px;
+        font-size: 0.8em;
+        font-weight: 900;
+        margin-top: 275px;
+        margin-left: -75px;
+        position: absolute;
+        color: #ffffff;
+        text-shadow: 3px 2px #000000;
+    }
+
+    #txt_slider2{
+        width: 1050px;
+        height: 50px;
+        font-size: 25px;
+        font-weight: 900;
+        margin-top: 225px;
+        margin-left: 105px;
+        position: absolute;
+        color: #ffffff;
+        text-shadow: 3px 2px #000000;
+        text-align: right;
+    }
+
+    #txt_slider3{
+        width: 1050px;
+        height: 50px;
+        font-size: 0.5em;
+        font-weight: 900;
+        margin-top: 225px;
+        margin-left: 15px;
+        position: absolute;
+        color: #ffffff;
+        text-shadow: 3px 2px #000000;
+        text-align: left;
+    }
+
+    /*------------- ÁREA DO MENU LATERAL -------------*/
+    /*espaço separado para o menu lateral*/
+    #menu_lateral{
+        width: 250px;
+        height: 950px;
+        overflow-y: hidden;
+        background-color: #ffffff;
+        float: left;
+    }
+
+    /*class de formatação para cada item do menu lateral*/
+    .itens_lateral{
+        width: 250px;
+        min-height: 40px;
+        height: auto;
+        font-size: 21px;
+        border-bottom: 4px solid #D2691E;
+        border-radius: 5px;
+    }
+
+    .texto_itens{
+        margin-left: 10px;
+    }
+
+    .submenu_lateral{
+        width: 100%;
+        height: 0px;
+        visibility: hidden;
+        overflow: hidden;
+        transition: 0.5s;
+        background-color: #ff0000;
+    }
+
+    .itens_lateral:hover .submenu_lateral{
+        height: auto;
+        float: left;
+        visibility: visible;
+        overflow: visible;
+        margin-bottom: 20px;
+        transition: 1s;
+    }
+
+    .subitens_lateral{
+        width: 240px;
+        height: 0px;
+        font-size: 0em;
+        padding-left: 10px;
+        color: black;
+        visibility: hidden;
+        overflow: hidden;
+        transition: 0.5s;
+        background-color: #ffffff;
+        border-bottom: 4px solid #D2691E;
+    }
+
+    .itens_lateral:hover .subitens_lateral{
+        height: 30px;
+        font-size: 1em;
+        visibility: visible;
+        overflow: visible;
+        transition: 1s;
+    }
+
+
+    /*--------------- ÁREA DO CONTEÚDO PRINCIPAL DO SITE -------------------*/
+    /*esse elemento é o que fica por tras das div's dos produtos*/
+    #content{
+        width: 1250px;
+        min-height: 950px;
+        height: auto;
+        float: left;
+        background-color: #FFF5D6;
+    }
+     /* style da parte de filtro dos produtos */
+    .pesquisar{
+        width: 400px;
+        height: 50px;
+        float: right;
+        margin-top: 15px;
+        margin-right: 50px;
+    }
+
+    .txtPesquisar{
+        width: 220px;
+        height: 30px;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 1em;
+        border: solid 2px #8B4513;
+    }
+
+    /* style dos botoes */
+    .botao_style{
+        width: 100px;
+        height: 30px;
+        margin-right: 20px;
+        background-color: rgba(0, 0, 0, .0);
+        border: groove 3px #8B4513;
+        font-weight: 900;
+        margin-left: 20px;
+    }
+
+    .botao_style:hover{
+        cursor: pointer;
+        box-shadow: -7px 3px 7px rgba(0, 0, 0, .5);
+    }
+
+    /*
+        linha é a clas usada para formatar uma linha de produtos,
+        ela fica entre o content e as div's de produtos
+    */
+    .linha{
+        width: 100%;
+        min-height: 950px;
+        height: auto;
+        margin-top: 80px;
+        overflow: hidden;
+    }
+
+    /*essa class é usada para formatação individual da caixa de cada produto*/
+    .produtos{
+        width: 346px;
+        height: 356px;
+        background-color: #ffffff;
+        margin-left: 50px;
+        float: left;
+        border: solid 2px #8B4513;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        margin-bottom: 50px;
+    }
+
+    /*formatação da imagem de cada produto*/
+    .imagem_produto{
+        width: 350px;
+        height: 200px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /*formatação das linhas de informações do produto (nome, preço e descrição)*/
+    .linhas_detalhes{
+        width: 346px;
+        height: 25px;
+        margin-top: 10px;
+    }
+
+    /*
+        formatação da div qua contem o nome da informação
+        que será mostra no campo do lado
+    */
+    .label_produtos{
+        width: 70px;
+        height: 25px;
+        float: left;
+        padding-left: 5px;
+        font-weight: 900;
+    }
+
+    /*formatação da div que vai conter i unformação do produto em si*/
+    .text_produto{
+        width: 266px;
+        height: 25px;
+        float: left;
+        padding-left: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    /*formatação da div que contem um link que está logo ao fim das informações*/
+    .detalhes{
+        width: 325px;
+        height: 25px;
+        text-align: right;
+        padding-right: 25px;
+    }
+
+    /*----------------------- ÁREA DO RODAPÉ --------------------------*/
+    /*é o elemento que fica por tras dos outros, dando tamanho, cor para o rodapé*/
+    footer{
+        width: 1495px;
+        height: 200px;
+        background-color: #FFDEAD;
+        margin-left: auto;
+        margin-right: auto;
+        color: #8B4513;
+        border: groove 3px rgba(147, 67, 0, 0.6);
+
+    }
+
+    /*formatação dos links, retirada dos sublinhados, mudando cor, etc*/
+    a:link{
+        color: #8B4513;
+    }
+    .links:visited {
+        color:#8B4513;
+        text-decoration: none;
+    }
+    .links:active {
+        color:#8B4513;
+        text-decoration: none;
+    }
+    .links:hover{
+        color:#8B4513;
+        cursor:pointer;
+        transition:0.3s;
+    }
+
+}

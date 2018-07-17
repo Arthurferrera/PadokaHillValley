@@ -1,0 +1,201 @@
+#main{
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
+}
+
+header{
+    width: 1000px;
+    height: 250px;
+    color: #FFFFFF;
+    font-weight: 700;
+    background-color: #8B4513;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#content{
+    width: 1000px;
+    height: auto;
+    text-align: center;
+    margin-top: 2px;
+    background-color: #FFDEAD;
+}
+
+.secao_principal{
+    width: 1000px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.contents_campos{
+    width: 470px;
+    height: 240px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    float: left;
+    line-height: 200px;
+    vertical-align: middle;
+}
+
+.subtitulo{
+    width: 400px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.8em;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+select{
+    width: 300px;
+    height: 30px;
+    font-size: 1.5em;
+}
+
+#input_titulo{
+    width: 300px;
+    height: 30px;
+    font-size: 1.5em;
+}
+
+#botao{
+    width: 260px;
+    height: 50px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-align: center;
+}
+
+.botao_style{
+    width: 100px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, .0);
+    border: groove 3px #8B4513;
+    font-size: 17px;
+    font-weight: 900;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.botao_style:hover{
+    cursor: pointer;
+    box-shadow: -7px 3px 7px rgba(0, 0, 0, .5);
+}
+
+#section_tabela{
+    height: 250px;
+}
+
+#tabela{
+    width: 900px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#linha_titulos{
+    width: 900px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulos_tabela{
+    width: 680px;
+    height: 46px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid 4px #8B4513;
+}
+
+.titulos{
+    width: 220px;
+    height: 40px;
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 5px;
+    float: left;
+}
+
+#registros{
+    width: 700px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.registros_tabela{
+    width: 680px;
+    height: 50px;
+    padding: 10px;
+    border-bottom: solid 2px #8B4513;
+}
+
+.registros{
+    width: 220px;
+    height: 50px;
+    font-size: 1.3em;
+    text-align: center;
+    overflow: hidden;
+    margin-right: 5px;
+    float: left;
+    vertical-align: middle;
+    line-height: 50px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#img_tabela{
+    width: 165px;
+    height: 165px;
+}
+
+.img_opcoes{
+    width: 40px;
+    height: 40px;
+
+}
+
+footer{
+    width: 1000px;
+    height: 35px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    font-weight: 700;
+    background-color: #8B4513;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+/*formatação dos links, retirada dos sublinhados, mudando cor, etc*/
+a:link{
+    color: #000000;
+    text-decoration: none;
+}
+.links:visited {
+    color:#000000;
+    text-decoration: none;
+}
+.links:active {
+    color:#000000;
+    text-decoration: none;
+}
+.links:hover{
+    color:#000000;
+    cursor:pointer;
+    transition:0.3s;
+}

@@ -1,0 +1,433 @@
+@media screen and (min-device-width:200px) and (max-device-width:520px){
+    /*---------- formatando a parte de tras de todo o site -------------*/
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image: url(../imagens/bg_body.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top;
+        background-size: cover;
+        font-family: monospace;
+    }
+
+    /*------------- SEÇÃO DO CABEÇALHO ---------------*/
+    /*-------------
+            esse é o elemento que está por tras do content_header,
+            que fixa o menu na parte de cima
+    ----------------*/
+    header {
+        width: 100%;
+        height: 180px;
+        background-color: #FFDEAD;
+        text-align: center;
+        border-bottom: 4px solid #8B4513;
+        border-radius: 7px;
+        font-weight: 900;
+        position: fixed;
+        color: #8B4513;
+        z-index: 999;
+    }
+
+    /*div utilizada para descer o main na mesma linha do header*/
+    #gamb{
+        width: 100%;
+        height: 183px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*---------------- MAIN - CONTEUDO DO SITE ----------------*/
+    /*main é a caixa principal do site*/
+    #main{
+        width: 100%;
+        min-height: 100vh;
+        height: auto;
+        background-color: #FFF5D6;
+        padding-bottom: 5%;
+    }
+
+    /*usado para segurar os icones das redes sociais*/
+    #redes_sociais{
+        display: none;
+    }
+
+    /*icones das redes sociais*/
+    .itens_redes{
+        display: none;
+    }
+
+    /*content de todo o conteudo*/
+    #content{
+        width: 100%;
+        min-height: 100%;
+        height: auto;
+        padding-top: 15px;
+    }
+
+    #titulo_padoka{
+        width: 100%;
+        height: 5%;
+        text-align: center;
+        font-size: 5em;
+        margin-top: 15px;
+        padding-top: 2%;
+    }
+
+    /*contents dos conteudos*/
+    .conteudos{
+        width: 93%;
+        min-height: 65vh;
+        height: auto;
+        margin-top: 5%;
+        padding: 3%;
+    }
+    /*class que formata os titulos*/
+    .titulo{
+        width: 100%;
+        height: 10%;
+        text-align: center;
+        font-size: 3.5em;
+        margin-top: -50px;
+    }
+    /*texto principal*/
+    .texto{
+        width: 100%;
+        height: 20%;
+        font-size: 2.5em;
+        float: left;
+        text-align: justify;
+    }
+    /*imagem sobre a padoka*/
+    #imagem_sobre{
+        width: 100%;
+        height: 50%;
+        float: right;
+        margin-top: 25px;
+    }
+
+    #imagem_sobre img{
+        width: 70%;
+        height: 100%;
+        margin-left: 15%;
+    }
+
+    /*content de missao visao e valores*/
+    #caracteristicas{
+        min-height: 70vh;
+        height: auto;
+        text-align: left;
+        margin-top: 5%;
+        background-color: #8B4513;
+        color: #ffffff;
+    }
+
+    /*div dos textos de missao visao e valores*/
+    .textos_caracteristicas{
+        width: 100%;
+        min-height: 20%;
+        float: left;
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    /*div do texto de diversidade*/
+    .texto_diversidade{
+        width: 100%;
+        min-height: 10vh;
+        height: auto;
+        font-size: 1.2em;
+        margin-top: 25px;
+        float: left;
+        text-align: justify;
+    }
+
+    /*section que mostra os amientes*/
+    #ambientes{
+        min-height: 130vh;
+        height: auto;
+        margin-top: -30%;
+    }
+
+    /*caixa para organizar as informações dos ambientes*/
+    .item_ambiente{
+        width: 100%;
+        min-height: 15vh;
+        height: auto;
+        float: left;
+    }
+
+    .textos_ambientes{
+        width: 100%;
+        height: 400px;
+        float: left;
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    .imagem_ambientes{
+        width: 100%;
+        height: 20vh;
+        float: left;
+    }
+
+    .imagem_ambientes img{
+        width: 80%;
+        height: 100%;
+        margin-left: 10%;
+    }
+
+    /*----------------------- ÁREA DO RODAPÉ --------------------------*/
+    /*é o elemento que fica por tras dos outros, dando tamanho, cor para o rodapé*/
+    footer{
+        width: 1495px;
+        height: 200px;
+        background-color: #FFDEAD;
+        margin-left: auto;
+        margin-right: auto;
+        color: #8B4513;
+        border: groove 3px rgba(147, 67, 0, 0.6);
+
+    }
+
+    /*formatação dos links, retirada dos sublinhados, mudando cor, etc*/
+    a:link{
+        color: #8B4513;
+    }
+    .links:visited {
+        color:#8B4513;
+        text-decoration: none;
+    }
+    .links:active {
+        color:#8B4513;
+        text-decoration: none;
+    }
+    .links:hover{
+        color:#8B4513;
+        cursor:pointer;
+        transition:0.3s;
+    }
+}
+
+@media screen and (min-device-width:521px){
+    /*---------- formatando a parte de tras de todo o site -------------*/
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image: url(../imagens/bg_body.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top;
+        background-size: cover;
+        font-family: monospace;
+    }
+
+    /*------------- SEÇÃO DO CABEÇALHO ---------------*/
+    /*-------------
+            esse é o elemento que está por tras do content_header,
+            que fixa o menu na parte de cima
+    ----------------*/
+    header {
+        width: 100%;
+        height: 140px;
+        background-color: #FFDEAD;
+        text-align: center;
+        border-bottom: 4px solid #8B4513;
+        border-radius: 7px;
+        font-weight: 900;
+        position: fixed;
+        color: #8B4513;
+        z-index: 999;
+    }
+
+    /*div utilizada para descer o main na mesma linha do header*/
+    #gamb{
+        width: 100%;
+        height: 143px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*---------------- MAIN - CONTEUDO DO SITE ----------------*/
+    /*main é a caixa principal do site*/
+    #main{
+        width: 1500px;
+        min-height: 1300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #FFF5D6;
+    }
+
+    /*usado para segurar os icones das redes sociais*/
+    #redes_sociais{
+        width: 70px;
+        height: 226px;
+        position: fixed;
+        margin-left: 1510px;
+        margin-top: 10px;
+    }
+
+    /*icones das redes sociais*/
+    .itens_redes{
+        width: 70px;
+        height: 70px;
+        margin-bottom: 5px;
+        border-radius: 8px;
+        transition: 0.5s;
+    }
+
+    /*efeito dos icones das redes sociais*/
+    .itens_redes:hover{
+        margin-left: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    /*content de todo o conteudo*/
+    #content{
+        width: 1500px;
+        height: 1900px;
+        padding-top: 15px;
+    }
+
+    #titulo_padoka{
+        width: 950px;
+        height: 65px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 50px;
+        margin-top: 15px;
+        padding-top: 5px;
+    }
+
+    /*contents dos conteudos*/
+    .conteudos{
+        width: 1440px;
+        height: 400px;
+        margin-top: 50px;
+        padding: 30px;
+    }
+    /*class que formata os titulos*/
+    .titulo{
+        width: auto;
+        height: 55px;
+        text-align: center;
+        font-size: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -50px;
+    }
+    /*texto principal*/
+    .texto{
+        width: 585px;
+        height: 250px;
+        margin-left: 50px;
+        font-size: 20px;
+        margin-top: 25px;
+        float: left;
+    }
+    /*imagem sobre a padoka*/
+    #imagem_sobre{
+        width: 500px;
+        height: 300px;
+        float: right;
+        margin-right: 150px;
+        margin-top: 25px;
+    }
+    /*div do texto de diversidade*/
+    .texto_diversidade{
+        width: 1400px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+        margin-top: 25px;
+        float: left;
+    }
+
+    /*section que mostra os amientes*/
+    #ambientes{
+        height: auto;
+        position: absolute;
+        margin-top: -180px;
+    }
+
+    /*caixa para organizar as informações dos ambientes*/
+    .item_ambiente{
+        width: 450px;
+        height: auto;
+        float: left;
+        margin-right: 20px;
+    }
+
+    /*content de missao visao e valores*/
+    #caracteristicas{
+        height: 300px;
+        text-align: left;
+        background-color: #8B4513;
+        color: #ffffff;
+    }
+
+    .textos_ambientes{
+        width: 100%;
+        height: 240px;
+        margin-right: 15px;
+        float: left;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /*div dos textos de missao visao e valores*/
+    .textos_caracteristicas{
+        width: 450px;
+        height: 260px;
+        margin-left: 15px;
+        margin-right: 15px;
+        float: left;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .imagem_ambientes{
+        width: 450px;
+        height: 250px;
+        float: left;
+        opacity: 0.8;
+    }
+
+    .imagem_ambientes:hover{
+        opacity: 1;
+    }
+
+    /*----------------------- ÁREA DO RODAPÉ --------------------------*/
+    /*é o elemento que fica por tras dos outros, dando tamanho, cor para o rodapé*/
+    footer{
+        width: 1495px;
+        height: 200px;
+        background-color: #FFDEAD;
+        margin-left: auto;
+        margin-right: auto;
+        color: #8B4513;
+        border: groove 3px rgba(147, 67, 0, 0.6);
+
+    }
+
+    /*formatação dos links, retirada dos sublinhados, mudando cor, etc*/
+    a:link{
+        color: #8B4513;
+    }
+    .links:visited {
+        color:#8B4513;
+        text-decoration: none;
+    }
+    .links:active {
+        color:#8B4513;
+        text-decoration: none;
+    }
+    .links:hover{
+        color:#8B4513;
+        cursor:pointer;
+        transition:0.3s;
+    }
+}

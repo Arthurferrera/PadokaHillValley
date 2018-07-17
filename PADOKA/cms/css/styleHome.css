@@ -1,0 +1,136 @@
+#main{
+    width: 1000px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
+}
+
+header{
+    width: 1000px;
+    height: 250px;
+    color: #FFFFFF;
+    font-weight: 700;
+    background-color: #8B4513;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#content{
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 2px;
+    background-color: #FFDEAD;
+}
+
+.titulo_estatisticas{
+    width: 70%;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 70px;
+    vertical-align: middle;
+    font-size: 1.4em;
+    font-weight: 900;
+}
+.linha_subtitulos{
+    width: 83%;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+}
+.itens_estatisticas_menores{
+    width: 65px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.itens_estatisticas_maiores{
+    width: 280px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.content_topfive{
+    width: 83%;
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+}
+.coluna_posicao{
+    width: 65px;
+    height: 260px;
+    float: left;
+    margin-left: 10px;
+    line-height: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.posicoes{
+    width: 65px;
+    height: 47px;
+    margin-bottom: 3px;
+}
+
+.linha_produtos_estatisticas{
+    width: 100%;
+    height: 50px;
+}
+
+.content_produtos_top_five{
+    width: 725px;
+    height: 260px;
+    float: left;
+}
+#nomeProduto{
+    margin-left: 0px;
+}
+.barra{
+    height: 30px;
+    background-color: #8B4513;
+    margin-top: 10px;
+}
+
+footer{
+    width: 1000px;
+    height: 35px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    font-weight: 700;
+    background-color: #8B4513;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+/*formatação dos links, retirada dos sublinhados, mudando cor, etc*/
+a:link{
+    color: #000000;
+}
+.links:visited {
+    color:#000000;
+    text-decoration: none;
+}
+.links:active {
+    color:#000000;
+    text-decoration: none;
+}
+.links:hover{
+    color:#000000;
+    cursor:pointer;
+    transition:0.3s;
+}

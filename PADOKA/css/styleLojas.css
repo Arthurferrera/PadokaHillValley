@@ -1,0 +1,362 @@
+@media screen and (min-device-width:200px) and (max-device-width:520px){
+    /*---------- formatando a parte de tras de todo o site -------------*/
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image: url(../imagens/bg_body.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top;
+        background-size: cover;
+        font-family: monospace;
+    }
+
+    /*------------- SEÇÃO DO CABEÇALHO ---------------*/
+    /*-------------
+            esse é o elemento que está por tras do content_header,
+            que fixa o menu na parte de cima
+    ----------------*/
+    header {
+        width: 100%;
+        height: 180px;
+        background-color: #FFDEAD;
+        text-align: center;
+        border-bottom: 4px solid #8B4513;
+        border-radius: 7px;
+        font-weight: 900;
+        position: fixed;
+        color: #8B4513;
+        z-index: 999;
+    }
+
+    /*div utilizada para descer o main na mesma linha do header*/
+    #gamb{
+        width: 100%;
+        height: 183px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*---------------- MAIN - CONTEUDO DO SITE ----------------*/
+    /*main é a caixa principal do site*/
+    #main{
+        width: 100%;
+        min-height: 1200px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #FFF5D6;
+        padding-bottom: 5%;
+    }
+
+    /*usado para segurar os icones das redes sociais*/
+    #redes_sociais{
+        display: none;
+        /* width: 70px;
+        height: 226px;
+        position: fixed;
+        margin-left: 1510px;
+        margin-top: 10px; */
+    }
+
+    /*icones das redes sociais*/
+    .itens_redes{
+        display: none;
+        /* width: 70px;
+        height: 70px;
+        margin-bottom: 5px;
+        border-radius: 8px;
+        transition: 0.5s; */
+    }
+
+    #content{
+        width: 100%;
+        min-height: 1200px;
+        height: auto;
+    }
+
+    #titulo{
+        width: 80%;
+        height: 20%;
+        text-align: center;
+        font-size: 5em;
+        padding-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    #imagem_mapa{
+        width: 100%;
+        height: 15vh;
+        margin-bottom: 45px;
+        background-image: url(../imagens/mapa.png);
+        background-size: cover;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+    }
+
+    .loja{
+        width: 90%;
+        height: 17vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        border: 4px solid #8B4513;
+        border-radius: 5px;
+    }
+
+    .loja:hover{
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+    }
+
+    .texto{
+        width: 60%;
+        height: 100%;
+        text-align: center;
+        font-size: 2.3em;
+        float: left;
+        padding: 0%;
+    }
+
+    .texto h1{
+        width: 100%;
+        height: 25%;
+        margin-bottom: -11%;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    .texto p{
+        width: 100%;
+        height: 20%;
+        margin-bottom: -11%;
+    }
+
+    .imagem_padaria{
+        width: 40%;
+        height: 100%;
+        float: left;
+    }
+
+    .imagem_padaria img{
+        width: 96%;
+        height: 80%;
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+
+    /*----------------------- ÁREA DO RODAPÉ --------------------------*/
+    /*é o elemento que fica por tras dos outros, dando tamanho, cor para o rodapé*/
+    footer{
+        width: 99%;
+        height: 250px;
+        background-color: #FFDEAD;
+        color: #8B4513;
+        border: groove 3px rgba(147, 67, 0, 0.6);
+    }
+
+    /*formatação dos links, retirada dos sublinhados, mudando cor, etc*/
+    a:link{
+        color: #8B4513;
+        text-decoration: none;
+    }
+    .links:visited {
+        color:#8B4513;
+        text-decoration: none;
+    }
+    .links:active {
+        color:#8B4513;
+        text-decoration: none;
+    }
+    .links:hover{
+        color:#8B4513;
+        cursor:pointer;
+        transition:0.3s;
+    }
+
+}
+@media  screen and (min-device-width:521px){
+    /*---------- formatando a parte de tras de todo o site -------------*/
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image: url(../imagens/bg_body.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top;
+        background-size: cover;
+        font-family: monospace;
+    }
+
+    /*------------- SEÇÃO DO CABEÇALHO ---------------*/
+    /*-------------
+            esse é o elemento que está por tras do content_header,
+            que fixa o menu na parte de cima
+    ----------------*/
+    header {
+        width: 100%;
+        height: 140px;
+        background-color: #FFDEAD;
+        text-align: center;
+        border-bottom: 4px solid #8B4513;
+        border-radius: 7px;
+        font-weight: 900;
+        position: fixed;
+        color: #8B4513;
+        z-index: 999;
+    }
+
+    /*div utilizada para descer o main na mesma linha do header*/
+    #gamb{
+        width: 100%;
+        height: 143px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*---------------- MAIN - CONTEUDO DO SITE ----------------*/
+    /*main é a caixa principal do site*/
+    #main{
+        width: 1500px;
+        min-height: 1150px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #FFF5D6;
+    }
+
+    /*usado para segurar os icones das redes sociais*/
+    #redes_sociais{
+        width: 70px;
+        height: 226px;
+        position: fixed;
+        margin-left: 1510px;
+        margin-top: 10px;
+    }
+
+    /*icones das redes sociais*/
+    .itens_redes{
+        width: 70px;
+        height: 70px;
+        margin-bottom: 5px;
+        border-radius: 8px;
+        transition: 0.5s;
+    }
+
+    /*efeito dos icones das redes sociais*/
+    .itens_redes:hover{
+        margin-left: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    #content{
+        width: 1500px;
+        min-height: 1200px;
+        height: auto;
+        padding-top: 15px;
+    }
+
+    #titulo{
+        width: 800px;
+        height: 80px;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    #imagem_mapa{
+        width: 1300px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 45px;
+        background-image: url(../imagens/mapa.png);
+        background-size: cover;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+    }
+
+    .loja{
+        width: 1100px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        border: 4px solid #8B4513;
+        border-radius: 5px;
+    }
+
+    .loja:hover{
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+    }
+
+    .texto{
+        width: 700px;
+        height: 300px;
+        text-align: center;
+        font-size: 23px;
+        float: left;
+    }
+
+    .imagem_padaria{
+        width: 400px;
+        height: 250px;
+        padding-top: 50px;
+        float: left;
+        text-align: center;
+    }
+
+    /*----------------------- ÁREA DO RODAPÉ --------------------------*/
+    /*é o elemento que fica por tras dos outros, dando tamanho, cor para o rodapé*/
+    footer{
+        width: 1495px;
+        height: 200px;
+        background-color: #FFDEAD;
+        margin-left: auto;
+        margin-right: auto;
+        color: #8B4513;
+        border: groove 3px rgba(147, 67, 0, 0.6);
+
+    }
+
+    /*formatação da div que contem um logo, que fica no rodapé da página*/
+    #logo_rodape{
+        width: 260px;
+        height: 160px;
+        float: left;
+        padding-left: 40px;
+        padding-top: 40px;
+    }
+
+    /*clas que formata todas as divs de informação do rodapé*/
+    .informacoes{
+        width: 1195px;
+        height: 33px;
+        margin-left: 300px;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 17px;
+    }
+
+    /*formatação dos links, retirada dos sublinhados, mudando cor, etc*/
+    a:link{
+        color: #8B4513;
+        text-decoration: none;
+    }
+    .links:visited {
+        color:#8B4513;
+        text-decoration: none;
+    }
+    .links:active {
+        color:#8B4513;
+        text-decoration: none;
+    }
+    .links:hover{
+        color:#8B4513;
+        cursor:pointer;
+        transition:0.3s;
+    }
+}

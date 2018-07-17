@@ -1,0 +1,183 @@
+#main{
+    width: 1000px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, .6);
+}
+
+header{
+    width: 1000px;
+    height: 250px;
+    color: #FFFFFF;
+    font-weight: 700;
+    background-color: #8B4513;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#content{
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    margin-top: 2px;
+    background-color: #FFDEAD;
+}
+
+#content_cadastro{
+    width: 94%;
+    height: 210px;
+    padding-left: 55px;
+}
+
+.campos{
+    width: 280px;
+    height: 150px;
+    margin-top: 15px;
+    float: left;
+    margin-left: 25px;
+}
+
+.subtitulo{
+    width: 100%;
+    height: 40px;
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 35px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+select{
+    width: 200px;
+    height: 30px;
+    font-size: 1.2em;
+}
+
+input{
+    width: 80px;;
+    height: 30px;
+    font-size: 1.2em;
+}
+
+
+.botao_style{
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, .0);
+    border: groove 3px #8B4513;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.botao_style:hover{
+    cursor: pointer;
+    box-shadow: -7px 3px 7px rgba(0, 0, 0, .5);
+}
+
+/*formatação da tabela que mostra os registros salvos no banco de dados*/
+#tabela{
+    width: 900px;
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#linha_titulos{
+    width: 900px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulos_tabela{
+    width: 880px;
+    height: 46px;
+    padding: 10px;
+    border-bottom: solid 4px #8B4513;
+}
+
+.titulos{
+    width: 210px;
+    height: 40px;
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 5px;
+    float: left;
+    line-height: 40px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+#registros{
+    width: 900px;
+    height: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.registros_tabela{
+    width: 905px;
+    height: 50px;
+    padding: 10px;
+    border-bottom: solid 2px #8B4513;
+}
+
+.registros{
+    width: 210px;
+    height: 50px;
+    font-size: 1.3em;
+    text-align: center;
+    overflow: hidden;
+    margin-right: 5px;
+    float: left;
+    vertical-align: middle;
+    line-height: 50px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.img_opcoes{
+    width: 30px;
+    height: 30px;
+    
+}
+
+/*area do rodapé*/
+footer{
+    width: 1000px;
+    height: 35px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    font-weight: 700;
+    background-color: #8B4513;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+/*formatação dos links, retirada dos sublinhados, mudando cor, etc*/
+a:link{
+    color: #000000;
+    text-decoration: none;
+}
+.links:visited {
+    color:#000000;
+    text-decoration: none;
+}
+.links:active {
+    color:#000000;
+    text-decoration: none;
+}
+.links:hover{
+    color:#000000;
+    cursor:pointer;
+    transition:0.3s;
+}
